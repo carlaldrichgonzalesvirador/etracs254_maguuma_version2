@@ -1,0 +1,5 @@
+<workunit extends="com/rameses/seti2/templates/CrudList.xml" schemaName="master_commodity">
+    <invokers>
+        <invoker folderid="home/maguuma/master/commodity" caption="Commodities" action="init" index="60" role="MASTER"/>
+    </invokers>
+</workunit>

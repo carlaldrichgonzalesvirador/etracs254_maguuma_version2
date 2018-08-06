@@ -1,0 +1,11 @@
+<scheme>
+	<element name =="personnel" tablename="personnle">
+		<field name="idno" primay="true"/>
+		<field name="firstname" required="true"/>
+		<field name="middlename" required="false"/>
+		<field name="lastname" required="true"/>
+		<field name="salary" required="true" type="decimal"/>
+		<field name="lastname" required="true"/>
+		<field name="lastname" required="true"/>
+	</element>
+</scheme>

@@ -1,0 +1,26 @@
+<folders>
+    <!-- <folder id="explorer">
+        <folder id="Transactions" caption="Payment Order" index="100">
+            <folder id="Treasury" caption="Payment Order"></folder>
+                <folder id="paymentorder" caption="Payment Order"></folder>        
+         </folder> 
+    </folder> -->
+    
+    <folder id="explorer">
+        <folder id="Transactions" caption="Mag-uuma Transactions" index="100">            
+         </folder>
+ </folder>
+ 
+ <folder id="home">
+    <folder id="maguuma" caption="Mag-uuma2" index="100">
+        <folder id="master" caption="Master File" index="100">
+            <folder id="commodity" caption="Commodity Master File" index="100">
+            </folder>
+            <folder id="livestock" caption="Livestock Master File" index="100">
+            </folder>
+        </folder>             
+    </folder>
+ </folder>
+</folders>
+ 
+

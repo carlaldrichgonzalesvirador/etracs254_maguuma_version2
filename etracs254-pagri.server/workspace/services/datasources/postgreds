@@ -1,0 +1,6 @@
+dialect=mssql
+driverClass=org.postgresql.Driver
+url=jdbc:postgresql://localhost:5432/postgres
+user=postgres
+pwd=z7a18q
+maxPoolSize=100

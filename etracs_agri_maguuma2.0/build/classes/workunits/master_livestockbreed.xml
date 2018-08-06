@@ -1,0 +1,10 @@
+<workunit schemaName="master_breed">
+    <invokers>
+        <invoker type="master_breed:create" caption="Breed Capture" action="create" role="MASTER"/>
+        <invoker type="master_breed:open" caption="Breed Capture" action="open" role="MASTER"/>
+    </invokers>
+    <code class="agri.maguuma.models.Master_FarmerBreedModel" />
+    <pages>
+        <page template="agri.maguuma.views.Master_FarmerLivestockBreedPage" />
+    </pages>
+</workunit>

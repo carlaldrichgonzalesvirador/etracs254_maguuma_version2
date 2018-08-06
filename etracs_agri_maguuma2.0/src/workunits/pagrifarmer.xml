@@ -1,0 +1,12 @@
+<workunit schemaName="agri_pagrifarmer">
+    <invokers>
+        <invoker type="agri_pagrifarmer:open"  action="open" caption="Farmer" target="window"/>
+        <invoker type="agri_pagrifarmer:create" action="create" target="window"/>
+        <invoker folderid="home/maguuma" caption="Farmer" action="create" index="1" target="window" />
+        <invoker type="formActions" caption="Approve" action="save:approve" />
+    </invokers>
+    <code class="agri.maguuma.models.FarmerModel"/>
+    <pages>
+        <page template="agri.maguuma.views.FarmerPage"/>
+    </pages>
+</workunit>

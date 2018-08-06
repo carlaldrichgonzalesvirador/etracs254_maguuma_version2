@@ -1,0 +1,8 @@
+<workunit extends="com/rameses/seti2/templates/CrudLookup.xml" 
+         schemaName="master_breed">
+  <invokers>
+      <invoker type="master_breed:lookup" caption="Lookup Breed" 
+                 action="init" target="popup" height="350"  
+                 cols="species_name,code,name,description"/>
+  </invokers>
+</workunit>

@@ -1,0 +1,42 @@
+<workunit extends="com/rameses/seti2/templates/CrudLookup.xml" 
+         schemaName="master_commodity">
+  <invokers>
+      <invoker type="master_commodity:lookup" caption="Lookup Commodity" 
+                 action="init" target="popup" height="350"  
+                 cols="code,name,description"/>
+  </invokers>
+</workunit>
+
+<!--<workunit extends="wtemplates/LookupController.xml">
+  <invokers>
+      <invoker type="pagricommodity:lookup" caption="Lookup Commodity" target="popup"/>
+  </invokers>
+   <code>
+
+        import com.rameses.rcp.common.*
+        import com.rameses.rcp.annotations.*
+        import com.rameses.osiris2.client.*
+        import com.rameses.osiris2.common.*
+
+        class CommodityLookupController extends LookupController
+        {
+            @Service("FarmerLookupService")
+            def svc
+
+            def state;
+
+            Column[] getColumns() {
+                return [
+                    new Column(name:"code", caption:"Code", width:250),
+                    new Column(name:"name", caption:"Name", width:250),
+                    new Column(name:"description", caption:"Description", width:250),
+                ]
+            }
+
+            List fetchList( Map params ) { 
+                return svc.lookupCommodity(params);
+            }
+        }  
+
+    </code>
+</workunit>-->

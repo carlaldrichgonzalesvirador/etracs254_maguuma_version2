@@ -1,0 +1,14 @@
+ <h1>${PAGE.title}</h1>
+
+<script> 
+	// var qsock = Socket.create('test_poll'); 
+	var qsock = Socket.create('tagabukidpoll'); 
+	qsock.handlers.h = function( o ) { 
+		//handle received message 
+		\$('#message').html( 'Message is ' + o.title );
+		window.console.log( o ); 
+	} 
+	qsock.start(); 
+</script>   
+
+<div id="message"></div>

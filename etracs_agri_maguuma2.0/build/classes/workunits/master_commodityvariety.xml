@@ -1,0 +1,10 @@
+<workunit schemaName="master_commodityvariety">
+    <invokers>
+        <invoker type="master_commodityvariety:create" caption="Commodity Variety Capture" action="create" role="MASTER"/>
+        <invoker type="master_commodityvariety:open" caption="Commodity Variety Capture" action="open" role="MASTER"/>
+    </invokers>
+    <code class="agri.maguuma.models.Master_FarmerCommodityVarietyModel" />
+    <pages>
+        <page template="agri.maguuma.views.Master_FarmerCommodityVarietyPage" />
+    </pages>
+</workunit>

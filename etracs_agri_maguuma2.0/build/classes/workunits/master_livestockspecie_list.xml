@@ -1,0 +1,5 @@
+<workunit extends="com/rameses/seti2/templates/CrudList.xml" schemaName="master_specie">
+    <invokers>
+        <invoker folderid="home/maguuma/master/livestock" caption="Specie" action="init" index="50" role="MASTER" />
+    </invokers>
+</workunit>

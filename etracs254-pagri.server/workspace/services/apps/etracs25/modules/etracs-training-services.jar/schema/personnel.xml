@@ -1,0 +1,27 @@
+<schema>
+	<element name="personnel" tablename="personnel">
+		<field name="idno" primary="true"/>
+		<field name="firstname" required="true"/>
+		<field name="middlename" required="false"/>
+		<field name="lastname" required="true"/>
+		<field name="salary" required="true" type="decimal"/>
+		<field name="gender" required="true"/>
+		<field name="nationality" required="true"/>
+		<field name="birthdate" required="true"/>
+		<field name="entity.civilservice" />
+		<field name="hsgrad" />
+		<field name="collegegrad" />
+		<field name="postgrad" />
+	</element>
+
+	<element>
+		<field name="training" tablename="personnel_training"/>
+		<field name="objid" primary="true"/>
+		<field name="personnelid" required="true"/>
+		<field name="type" required="true"/>
+		<field name="title" required="true"/>
+		<field name="startdate" required="true"/>
+		<field name="enddate" required="true"/>
+	</element>
+
+</schema>

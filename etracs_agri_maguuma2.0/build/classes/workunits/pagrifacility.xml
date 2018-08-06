@@ -1,0 +1,10 @@
+<workunit schemaName="agri_pagrifacility">
+    <invokers>
+        <invoker type="agri_pagrifacility:create" caption="Facility Capture" action="create" role="MASTER"/>
+        <invoker type="agri_pagrifacility:open" caption="Facility Capture" action="open" role="MASTER"/>
+    </invokers>
+    <code class="agri.maguuma.models.FarmerFacilityModel" />
+    <pages>
+        <page template="agri.maguuma.views.FarmerFacilityPage" />
+    </pages>
+</workunit>

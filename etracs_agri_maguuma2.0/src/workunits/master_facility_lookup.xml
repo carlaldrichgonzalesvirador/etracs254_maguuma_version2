@@ -1,0 +1,8 @@
+<workunit extends="com/rameses/seti2/templates/CrudLookup.xml" 
+         schemaName="master_facility">
+  <invokers>
+      <invoker type="master_facility:lookup" caption="Lookup Facility" 
+                 action="init" target="popup" height="350"  
+                 cols="code,name,description"/>
+  </invokers>
+</workunit>

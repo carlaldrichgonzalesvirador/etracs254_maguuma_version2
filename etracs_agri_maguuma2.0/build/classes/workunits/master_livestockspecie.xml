@@ -1,0 +1,10 @@
+<workunit schemaName="master_specie">
+    <invokers>
+        <invoker type="master_specie:create" caption="Specie Capture" action="create" role="MASTER"/>
+        <invoker type="master_specie:open" caption="Specie Capture" action="open" role="MASTER"/>
+    </invokers>
+    <code class="agri.maguuma.models.Master_FarmerSpecieModel" />
+    <pages>
+        <page template="agri.maguuma.views.Master_FarmerLivestockSpeciePage" />
+    </pages>
+</workunit>

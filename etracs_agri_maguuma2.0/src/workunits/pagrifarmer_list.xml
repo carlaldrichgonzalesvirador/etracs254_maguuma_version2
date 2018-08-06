@@ -1,0 +1,6 @@
+<workunit cols="lastname,firstname,lastname,gender" schemaName="entityindividual" extends="com/rameses/seti2/templates/CrudList.xml">
+    <invokers>
+       <invoker role="MASTER,ENCODER" orderBy="farmerid" index="100" action="init" caption="Farmers List" folderid="home/maguuma"/>
+       
+    </invokers>
+</workunit>

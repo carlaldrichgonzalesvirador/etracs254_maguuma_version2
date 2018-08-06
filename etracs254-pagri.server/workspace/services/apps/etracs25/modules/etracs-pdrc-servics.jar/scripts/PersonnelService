@@ -1,0 +1,39 @@
+import com.rameses.annotations.*
+import com.rameses.common.*
+import com.rameses.services.extended.*
+
+public class PersonnelService
+{
+	@ActiveDB(value='personnel', em='pdrc ')
+	def em
+
+	@ProxyMethod 
+	public def getList(params){
+		return em.getList(params)
+	}
+
+	@ProxyMethod
+	public Map create( entity ) {
+		em.create(entity)
+	}
+
+	@ProxyMethod
+	public Map update( entity ) {
+		em.update(entity)
+		return entity
+	}
+
+@ProxyMethod
+	public Map delete( entity ) {
+		em.delete(entity)
+		return entity
+	}
+	@ProxyMethod
+	public Map open (entity){
+	def data = em. read(entity)
+	if (data == null)
+	 throw new Exception('Personnel does not exist or has already been deleted.')
+	 return data
+}
+
+}
