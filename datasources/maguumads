@@ -1,0 +1,5 @@
+dialect=mysql
+driverClass=com.mysql.jdbc.Driver
+url=jdbc:mysql://localhost:3306/etracs254_db_maguuma2.0
+user=root
+pwd=1234
