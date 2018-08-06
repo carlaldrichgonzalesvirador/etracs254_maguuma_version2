@@ -1,5 +1,0 @@
-dialect=mysql
-driverClass=com.mysql.jdbc.Driver
-url=jdbc:mysql://localhost:3306/hrmis_dbase
-user=root
-pwd=

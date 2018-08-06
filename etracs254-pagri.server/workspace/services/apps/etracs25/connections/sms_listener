@@ -1,4 +1,0 @@
-provider=websocket
-ws.host=localhost:8063
-ws.protocol=etracs
-ws.enabled=true

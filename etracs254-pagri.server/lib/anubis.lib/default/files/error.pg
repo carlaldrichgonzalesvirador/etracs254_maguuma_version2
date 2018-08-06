@@ -1,6 +1,0 @@
-{
-	hidden: true,
-        title: "Error Page",
-        sortorder: 100,
-        secured: false
-}

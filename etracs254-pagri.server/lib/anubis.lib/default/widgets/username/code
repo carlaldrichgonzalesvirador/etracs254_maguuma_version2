@@ -1,3 +1,0 @@
-<%if( SESSION.sessionid ) {%>
-${SESSION.username} 
-<% } %>

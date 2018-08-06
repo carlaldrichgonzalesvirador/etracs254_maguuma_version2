@@ -1,5 +1,0 @@
-provider=async
-context=notification
-host=localhost:8072
-connection=async_remote
-failOnConnectionError=false

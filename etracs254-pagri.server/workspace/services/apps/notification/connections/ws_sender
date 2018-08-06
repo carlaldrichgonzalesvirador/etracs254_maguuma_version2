@@ -1,3 +1,0 @@
-provider=http
-http.host=${ws.host}/wschannel
-http.action=post

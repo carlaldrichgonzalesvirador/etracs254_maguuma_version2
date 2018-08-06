@@ -1,6 +1,0 @@
-dialect=mssql
-driverClass=com.microsoft.sqlserver.jdbc.SQLServerDriver
-url=jdbc:sqlserver://localhost;DatabaseName=attdb
-user=sa
-pwd=z7a18q
-maxPoolSize=100

@@ -1,3 +1,0 @@
-provider=http
-http.host=localhost:8064/wschannel
-http.action=post

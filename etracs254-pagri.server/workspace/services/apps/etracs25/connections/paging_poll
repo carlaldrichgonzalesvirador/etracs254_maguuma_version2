@@ -1,3 +1,0 @@
-provider=http
-http.host=localhost:8080/poll
-http.action=paging_poll
